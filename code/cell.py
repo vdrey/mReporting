@@ -1,10 +1,15 @@
 import gspread
 from oauth2client.service_account import ServiceAccountCredentials
+
 scope = "https://spreadsheets.google.com/feeds"
 credentials = ServiceAccountCredentials.from_json_keyfile_name('credential.json', scope)
 gs = gspread.authorize(credentials)
 
-gsheet = gs.open("testSheet")
-ws = gsheet.worksheet("Sheet1")
+def getVal(spreadSheet, workSheet, cell):
 
-print(ws.acell('G3').value)
+    sheet = gs.open(spreadSheet)
+    ws = sheet.worksheet(workSheet)
+    value = ws.acell(cell).value
+
+    return value
+    
