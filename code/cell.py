@@ -12,4 +12,9 @@ def getVal(spreadSheet, workSheet, cell):
     value = ws.acell(cell).value
 
     return value
+
+def setVal(spreadSheet, workSheet, cell, newVal):
     
+    sheet = gs.open(spreadSheet)
+    ws = sheet.worksheet(workSheet)
+    ws.update_acell(cell,newVal)
