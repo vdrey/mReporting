@@ -27,9 +27,16 @@ def sGmail(to, subject, message):
         password = creds['pass']
         creds.close()
 
+
+    msg = MIMEText(message)
+    msg['Subject'] = subject
+    msg['To'] = to
+    msg['From'] = username
+
     smtpObj = smtplib.SMTP('smtp.gmail.com', 587)
     smtpObj.ehlo()
     smtpObj.starttls()
     smtpObj.login(username, password)
-    smtpObj.sendmail(from_addr=username, to_addrs=to, msg=message)
+    smtpObj.send_message(msg)
+    #smtpObj.sendmail(from_addr=username, to_addrs=to, msg=message)
     smtpObj.quit()
