@@ -32,7 +32,7 @@ cells['cash_percent'] = {'worksheet':'All','cell':'E25'}
 # Asset Values
 cells['LGMAX_val'] = {'worksheet':'All','cell':'E5'}
 cells['LGRRX_val'] = {'worksheet':'All','cell':'E6'}
-cells['V00_val'] = {'worksheet':'All','cell':'E7'}
+cells['VOO_val'] = {'worksheet':'All','cell':'E7'}
 cells['VB_val'] = {'worksheet':'All','cell':'E8'}
 cells['VWO_val'] = {'worksheet':'All','cell':'E9'}
 cells['VNQ_val'] = {'worksheet':'All','cell':'E10'}
@@ -45,7 +45,7 @@ cells['DDF_val'] = {'worksheet':'All','cell':'E20'}
 # Number of shares
 cells['LGMAX_shares'] = {'worksheet':'All','cell':'C5'}
 cells['LGRRX_shares'] = {'worksheet':'All','cell':'C6'}
-cells['V00_shares'] = {'worksheet':'All','cell':'C7'}
+cells['VOO_shares'] = {'worksheet':'All','cell':'C7'}
 cells['VB_shares'] = {'worksheet':'All','cell':'C8'}
 cells['VWO_shares'] = {'worksheet':'All','cell':'C9'}
 cells['VNQ_shares'] = {'worksheet':'All','cell':'C10'}
@@ -65,7 +65,7 @@ cells['morning_acorns_val'] = {'worksheet':'storage','cell':'B4'}
 cells['morning_robinhood_val'] = {'worksheet':'storage','cell':'B5'}
 cells['morning_LGMAX_val'] = {'worksheet':'storage','cell':'B10'}
 cells['morning_LGRRX_val'] = {'worksheet':'storage','cell':'B11'}
-cells['morning_V00_val'] = {'worksheet':'storage','cell':'B12'}
+cells['morning_VOO_val'] = {'worksheet':'storage','cell':'B12'}
 cells['morning_VB_val'] = {'worksheet':'storage','cell':'B13'}
 cells['morning_VWO_val'] = {'worksheet':'storage','cell':'B14'}
 cells['morning_VNQ_val'] = {'worksheet':'storage','cell':'B15'}
