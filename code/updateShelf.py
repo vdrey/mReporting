@@ -19,6 +19,11 @@ cells['equity_val'] = {'worksheet':'All','cell':'E14'}
 cells['fixed_val'] = {'worksheet':'All','cell':'E22'}
 cells['cash_val'] = {'worksheet':'All','cell':'E29'}
 
+# Account Values
+cells['wfa_val'] = {'worksheet':'WFA','cell':'E8'}
+cells['acorns_val'] = {'worksheet':'Acorns','cell':'E9'}
+cells['robinhood_val'] = {'worksheet':'Robinhood','cell':'E8'}
+
 # Category Percent
 cells['equity_percent'] = {'worksheet':'All','cell':'E4'}
 cells['fixed_percent'] = {'worksheet':'All','cell':'E17'}
@@ -50,6 +55,25 @@ cells['SHY_shares'] = {'worksheet':'All','cell':'C18'}
 cells['LQD_shares'] = {'worksheet':'All','cell':'C19'}
 cells['DDF_shares'] = {'worksheet':'All','cell':'C20'}
 
+# Morning Values
+cells['morning_total_val'] = {'worksheet':'storage','cell':'B2'}
+cells['morning_equity_val'] = {'worksheet':'storage','cell':'B6'}
+cells['morning_fixed_val'] = {'worksheet':'storage','cell':'B7'}
+cells['morning_cash_val'] = {'worksheet':'storage','cell':'B8'}
+cells['morning_wfa_val'] = {'worksheet':'storage','cell':'B3'}
+cells['morning_acorns_val'] = {'worksheet':'storage','cell':'B4'}
+cells['morning_robinhood_val'] = {'worksheet':'storage','cell':'B5'}
+cells['morning_LGMAX_val'] = {'worksheet':'storage','cell':'B10'}
+cells['morning_LGRRX_val'] = {'worksheet':'storage','cell':'B11'}
+cells['morning_V00_val'] = {'worksheet':'storage','cell':'B12'}
+cells['morning_VB_val'] = {'worksheet':'storage','cell':'B13'}
+cells['morning_VWO_val'] = {'worksheet':'storage','cell':'B14'}
+cells['morning_VNQ_val'] = {'worksheet':'storage','cell':'B15'}
+cells['morning_IRDM_val'] = {'worksheet':'storage','cell':'B16'}
+cells['morning_MSTX_val'] = {'worksheet':'storage','cell':'B17'}
+cells['morning_SHY_val'] = {'worksheet':'storage','cell':'B18'}
+cells['morning_LQD_val'] = {'worksheet':'storage','cell':'B19'}
+cells['morning_DDF_val'] = {'worksheet':'storage','cell':'B20'}
 
 
 # Close shelf
