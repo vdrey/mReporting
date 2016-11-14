@@ -15,9 +15,9 @@ cells = shelve.open('cell_store')
 
 # Category Values
 cells['total_val'] = {'worksheet':'All','cell':'D2'}
-cells['equity_val'] = {'worksheet':'All','cell':'E14'}
-cells['fixed_val'] = {'worksheet':'All','cell':'E22'}
-cells['cash_val'] = {'worksheet':'All','cell':'E29'}
+cells['equity_val'] = {'worksheet':'All','cell':'E15'}
+cells['fixed_val'] = {'worksheet':'All','cell':'E25'}
+cells['cash_val'] = {'worksheet':'All','cell':'E32'}
 
 # Account Values
 cells['wfa_val'] = {'worksheet':'WFA','cell':'E8'}
@@ -26,34 +26,34 @@ cells['robinhood_val'] = {'worksheet':'Robinhood','cell':'E8'}
 
 # Category Percent
 cells['equity_percent'] = {'worksheet':'All','cell':'E4'}
-cells['fixed_percent'] = {'worksheet':'All','cell':'E17'}
-cells['cash_percent'] = {'worksheet':'All','cell':'E25'}
+cells['fixed_percent'] = {'worksheet':'All','cell':'E87'}
+cells['cash_percent'] = {'worksheet':'All','cell':'E28'}
 
 # Asset Values
-cells['LGMAX_val'] = {'worksheet':'All','cell':'E5'}
-cells['LGRRX_val'] = {'worksheet':'All','cell':'E6'}
-cells['VOO_val'] = {'worksheet':'All','cell':'E7'}
-cells['VB_val'] = {'worksheet':'All','cell':'E8'}
-cells['VWO_val'] = {'worksheet':'All','cell':'E9'}
-cells['VNQ_val'] = {'worksheet':'All','cell':'E10'}
-cells['IRDM_val'] = {'worksheet':'All','cell':'E11'}
-cells['MSTX_val'] = {'worksheet':'All','cell':'E12'}
-cells['SHY_val'] = {'worksheet':'All','cell':'E18'}
-cells['LQD_val'] = {'worksheet':'All','cell':'E19'}
-cells['DDF_val'] = {'worksheet':'All','cell':'E20'}
+cells['LGMAX_val'] = {'worksheet':'WFA','cell':'E3'}
+cells['LGRRX_val'] = {'worksheet':'WFA','cell':'E4'}
+cells['VOO_val'] = {'worksheet':'Acorns','cell':'E4'}
+cells['VB_val'] = {'worksheet':'Acorns','cell':'E5'}
+cells['VWO_val'] = {'worksheet':'Acorns','cell':'E6'}
+cells['VNQ_val'] = {'worksheet':'Acorns','cell':'E7'}
+cells['IRDM_val'] = {'worksheet':'Robinhood','cell':'E2'}
+cells['MSTX_val'] = {'worksheet':'Robinhood','cell':'E4'}
+cells['SHY_val'] = {'worksheet':'Acorns','cell':'E2'}
+cells['LQD_val'] = {'worksheet':'Acorns','cell':'E3'}
+cells['DDF_val'] = {'worksheet':'Robinhood','cell':'E3'}
 
 # Number of shares
-cells['LGMAX_shares'] = {'worksheet':'All','cell':'C5'}
-cells['LGRRX_shares'] = {'worksheet':'All','cell':'C6'}
-cells['VOO_shares'] = {'worksheet':'All','cell':'C7'}
-cells['VB_shares'] = {'worksheet':'All','cell':'C8'}
-cells['VWO_shares'] = {'worksheet':'All','cell':'C9'}
-cells['VNQ_shares'] = {'worksheet':'All','cell':'C10'}
-cells['IRDM_shares'] = {'worksheet':'All','cell':'C11'}
-cells['MSTX_shares'] = {'worksheet':'All','cell':'C12'}
-cells['SHY_shares'] = {'worksheet':'All','cell':'C18'}
-cells['LQD_shares'] = {'worksheet':'All','cell':'C19'}
-cells['DDF_shares'] = {'worksheet':'All','cell':'C20'}
+cells['LGMAX_shares'] = {'worksheet':'WFA','cell':'C3'}
+cells['LGRRX_shares'] = {'worksheet':'WFA','cell':'C4'}
+cells['VOO_shares'] = {'worksheet':'Acorns','cell':'C4'}
+cells['VB_shares'] = {'worksheet':'Acorns','cell':'C5'}
+cells['VWO_shares'] = {'worksheet':'Acorns','cell':'C6'}
+cells['VNQ_shares'] = {'worksheet':'Acorns','cell':'C7'}
+cells['IRDM_shares'] = {'worksheet':'Robinhood','cell':'C2'}
+cells['MSTX_shares'] = {'worksheet':'Robinhood','cell':'C4'}
+cells['SHY_shares'] = {'worksheet':'Acorns','cell':'C2'}
+cells['LQD_shares'] = {'worksheet':'Acorns','cell':'C3'}
+cells['DDF_shares'] = {'worksheet':'Robinhood','cell':'C3'}
 
 # Morning Values
 cells['morning_total_val'] = {'worksheet':'storage','cell':'B2'}
