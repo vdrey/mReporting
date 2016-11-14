@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 # This script gets the end of day total value, as well as the morning total value.
 
 # The script then calculates the day's $ & % change, and sends it in an email.

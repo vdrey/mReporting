@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 # This script gets the total value of a portfolio as of 4am and stores it in the appropriate cell in the google sheet
 import cell
 

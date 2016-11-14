@@ -75,6 +75,18 @@ cells['morning_SHY_val'] = {'worksheet':'storage','cell':'B18'}
 cells['morning_LQD_val'] = {'worksheet':'storage','cell':'B19'}
 cells['morning_DDF_val'] = {'worksheet':'storage','cell':'B20'}
 
+# Morning Shares
+cells['morning_LGMAX_shares'] = {'worksheet':'storage','cell':'C10'}
+cells['morning_LGRRX_shares'] = {'worksheet':'storage','cell':'C11'}
+cells['morning_VOO_shares'] = {'worksheet':'storage','cell':'C12'}
+cells['morning_VB_shares'] = {'worksheet':'storage','cell':'C13'}
+cells['morning_VWO_shares'] = {'worksheet':'storage','cell':'C14'}
+cells['morning_VNQ_shares'] = {'worksheet':'storage','cell':'C15'}
+cells['morning_IRDM_shares'] = {'worksheet':'storage','cell':'C16'}
+cells['morning_MSTX_shares'] = {'worksheet':'storage','cell':'C17'}
+cells['morning_SHY_shares'] = {'worksheet':'storage','cell':'C18'}
+cells['morning_LQD_shares'] = {'worksheet':'storage','cell':'C19'}
+cells['morning_DDF_shares'] = {'worksheet':'storage','cell':'C20'}
 
 # Close shelf
 cells.close()
