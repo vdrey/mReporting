@@ -41,6 +41,7 @@ cells['MSTX_val'] = {'worksheet':'Robinhood','cell':'E4'}
 cells['SHY_val'] = {'worksheet':'Acorns','cell':'E2'}
 cells['LQD_val'] = {'worksheet':'Acorns','cell':'E3'}
 cells['DDF_val'] = {'worksheet':'Robinhood','cell':'E3'}
+cells['CHKR_val'] = {'worksheet':'Robinhood','cell':'E5'}
 
 # Number of shares
 cells['LGMAX_shares'] = {'worksheet':'WFA','cell':'C3'}
@@ -54,6 +55,7 @@ cells['MSTX_shares'] = {'worksheet':'Robinhood','cell':'C4'}
 cells['SHY_shares'] = {'worksheet':'Acorns','cell':'C2'}
 cells['LQD_shares'] = {'worksheet':'Acorns','cell':'C3'}
 cells['DDF_shares'] = {'worksheet':'Robinhood','cell':'C3'}
+cells['CHKR_shares'] = {'worksheet':'Robinhood','cell':'C5'}
 
 # Morning Values
 cells['morning_total_val'] = {'worksheet':'storage','cell':'B2'}
@@ -74,6 +76,7 @@ cells['morning_MSTX_val'] = {'worksheet':'storage','cell':'B17'}
 cells['morning_SHY_val'] = {'worksheet':'storage','cell':'B18'}
 cells['morning_LQD_val'] = {'worksheet':'storage','cell':'B19'}
 cells['morning_DDF_val'] = {'worksheet':'storage','cell':'B20'}
+cells['morning_CHKR_val'] = {'worksheet':'storage','cell':'B21'}
 
 # Morning Shares
 cells['morning_LGMAX_shares'] = {'worksheet':'storage','cell':'C10'}
@@ -87,6 +90,7 @@ cells['morning_MSTX_shares'] = {'worksheet':'storage','cell':'C17'}
 cells['morning_SHY_shares'] = {'worksheet':'storage','cell':'C18'}
 cells['morning_LQD_shares'] = {'worksheet':'storage','cell':'C19'}
 cells['morning_DDF_shares'] = {'worksheet':'storage','cell':'C20'}
+cells['morning_CHKR_shares'] = {'worksheet':'storage','cell':'C21'}
 
 # Close shelf
 cells.close()
