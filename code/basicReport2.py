@@ -27,7 +27,7 @@ def clean(val):
 ## Get the evening and morning total values
 gSheet = "Other"
 all_sheet = "All"
-store_sheet = "storage"
+store_sheet = "storage-morning"
 total_val_cell = "D2"
 morning_total_cell = "B2"
 
@@ -52,10 +52,10 @@ subj = 'Report for %s/%s/%s' % (str(now.month), str(now.day), str(now.year))
 message = """
 The day started with a value across accounts of %s, and ended the day at %s.
 
-Dollar Value Change: %.2f
+Dollar Value Change: $%.2f
 
 
-Percentage Change: %.3f
+Percentage Change: %.3f%
 """ % (morning_val_s, evening_val_s, dollar_change, percent_change)
 
 ## Send email

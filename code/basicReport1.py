@@ -27,7 +27,7 @@ def clean(val):
 ## Get the evening and morning total values
 gSheet = "Other"
 all_sheet = "All"
-store_sheet = "storage"
+store_sheet = "storage-morning"
 total_val_cell = "D2"
 morning_total_cell = "B2"
 
