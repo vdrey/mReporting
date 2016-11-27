@@ -8,6 +8,7 @@
 import cell
 import gmail3
 import datetime
+import shelve
 from email.mime.text import MIMEText
 
 # Function for cleaning up dollar values, and converting into a number
@@ -27,15 +28,26 @@ def clean(val):
     return val
 
 
-## Get the evening and morning total values
+## Get the evening total values, as well as equity, 
+## fixed income, and cash values and percentages.
 gSheet = "Other"
-all_sheet = "All"
-store_sheet = "storage-morning"
-total_val_cell = "D2"
-morning_total_cell = "B2"
+cells = shelve.open('cell_store')
 
-morning_val_s = cell.getVal(gSheet, store_sheet, morning_total_cell)
-evening_val_s = cell.getVal(gSheet, all_sheet, total_val_cell)
+# Total
+morning_val_s = cell.getVal(gSheet, cells['morning_total_val']['worksheet'], cells['morning_total_val']['cell'])
+evening_val_s = cell.getVal(gSheet, cells['total_val']['worksheet'], cells['total_val']['cell'])
+
+# Category values & percents
+equity_val_s = cell.getVal(gSheet, cells['equity_val']['worksheet'], cells['equity_val']['cell'])
+equity_pct_s = cell.getVal(gSheet, cells['equity_percent']['worksheet'], cells['equity_percent']['cell'])
+
+fixed_val_s = cell.getVal(gSheet, cells['fixed_val']['worksheet'], cells['fixed_val']['cell'])
+fixed_pct_s = cell.getVal(gSheet, cells['fixed_percent']['worksheet'], cells['fixed_percent']['cell'])
+
+cash_val_s = cell.getVal(gSheet, cells['cash_val']['worksheet'], cells['cash_val']['cell'])
+cash_pct_s = cell.getVal(gSheet, cells['cash_percent']['worksheet'], cells['cash_percent']['cell'])
+
+cells.close()
 
 # Convert to number
 morning_val = clean(morning_val_s)
@@ -65,10 +77,33 @@ message = """\
        <br>
        Dollar Value Change: $%.2f<br>
        Percentage Change:    %.3f<br>
+       <br>
+       <br>
+       <table border=".1">
+         <tr>
+           <th>Category</th>
+           <th>Value</th>
+           <th>Percent</th>
+         </tr>
+         <tr>  
+           <td align="center">Equity</td>
+           <td align="center">%s</td>
+           <td align="center">%s</td>
+         </tr>
+         <tr>
+           <td align="center">Fixed</td>
+           <td align="center">%s</td>
+           <td align="center">%s</td>
+         </tr>
+           <td align="center">Cash</td>
+           <td align="center">%s</td>
+           <td align="center">%s</td>
+       </table>
     </p>
   </body>
 </html>
-""" % (morning_val_s, evening_val_s, dollar_change, percent_change)
+""" % (morning_val_s, evening_val_s, dollar_change, percent_change, equity_val_s, equity_pct_s, fixed_val_s,
+       fixed_pct_s, cash_val_s, cash_pct_s)
 
 
 part1 = MIMEText(message, 'html')

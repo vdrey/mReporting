@@ -26,7 +26,7 @@ cells['robinhood_val'] = {'worksheet':'Robinhood','cell':'E8'}
 
 # Category Percent
 cells['equity_percent'] = {'worksheet':'All','cell':'E4'}
-cells['fixed_percent'] = {'worksheet':'All','cell':'E87'}
+cells['fixed_percent'] = {'worksheet':'All','cell':'E18'}
 cells['cash_percent'] = {'worksheet':'All','cell':'E28'}
 
 # Asset Values
