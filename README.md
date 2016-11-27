@@ -1,21 +1,14 @@
 # mReporting
+Sends email updates from the google sheet
 
-**I Need to remember the syntax**
+## Current "production"
+* morning.py
+* basicReport1.py
+* updateShelf.py
+* gmail2.py
 
-*yep*
-
-[google](https://google.com)
-
-## Secondary heading
-1. First Item
-2. Second
-	* a
-	* b
-	* C
-	
-a quote
-> this 
-> is 
-> a
-> quote
-
+## Current setup
+1) Clone repo.
+2) Transfer credential.json & cred_store using gpg
+3) Setup crontab
+4) Done!
