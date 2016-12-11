@@ -10,7 +10,7 @@ total_val_cell = 'D2'
 # Get the current value
 total_val = cell.getVal(gSheet, all_sheet, total_val_cell)
 
-store_sheet = 'storage'
+store_sheet = 'storage-morning'
 morning_total_cell = 'B2'
 
 # Set the morning value
