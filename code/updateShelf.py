@@ -22,7 +22,7 @@ cells['cash_val'] = {'worksheet':'All','cell':'E32'}
 # Account Values
 cells['wfa_val'] = {'worksheet':'WFA','cell':'E8'}
 cells['acorns_val'] = {'worksheet':'Acorns','cell':'E9'}
-cells['robinhood_val'] = {'worksheet':'Robinhood','cell':'E8'}
+cells['robinhood_val'] = {'worksheet':'Robinhood','cell':'E11'}
 
 # Category Percent
 cells['equity_percent'] = {'worksheet':'All','cell':'E4'}
