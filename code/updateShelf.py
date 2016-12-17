@@ -92,5 +92,63 @@ cells['morning_LQD_shares'] = {'worksheet':'storage-morning','cell':'C19'}
 cells['morning_DDF_shares'] = {'worksheet':'storage-morning','cell':'C20'}
 cells['morning_CHKR_shares'] = {'worksheet':'storage-morning','cell':'C21'}
 
+
+#---------------------------------------------------------------------------------
+## Weekly Opening Values
+#---------------------------------------------------------------------------------
+# Categories
+cells['wk_opn_eq'] = {'worksheet':'storage-week','cell':'B3'}
+cells['wk_opn_FI'] = {'worksheet':'storage-week','cell':'B4'}
+cells['wk_opn_csh'] = {'worksheet':'storage-week','cell':'B5'}
+
+# Accounts
+cells['wk_opn_wfa'] = {'worksheet':'storage-week','cell':'B10'}
+cells['wk_opn_acn'] = {'worksheet':'storage-week','cell':'B11'}
+cells['wk_opn_rhd'] = {'worksheet':'storage-week','cell':'B12'}
+
+# Stocks
+cells['wk_opn_LGMAX'] = {'worksheet':'storage-week','cell':'B21'}
+cells['wk_opn_LGRRX'] = {'worksheet':'storage-week','cell':'B22'}
+cells['wk_opn_VOO'] = {'worksheet':'storage-week','cell':'B23'}
+cells['wk_opn_VB'] = {'worksheet':'storage-week','cell':'B24'}
+cells['wk_opn_MSTX'] = {'worksheet':'storage-week','cell':'B25'}
+cells['wk_opn_DDF'] = {'worksheet':'storage-week','cell':'B26'}
+cells['wk_opn_VWO'] = {'worksheet':'storage-week','cell':'B27'}
+cells['wk_opn_VNQ'] = {'worksheet':'storage-week','cell':'B28'}
+cells['wk_opn_IRDM'] = {'worksheet':'storage-week','cell':'B29'}
+cells['wk_opn_SHY'] = {'worksheet':'storage-week','cell':'B30'}
+cells['wk_opn_LQD'] = {'worksheet':'storage-week','cell':'B31'}
+cells['wk_opn_CHKR'] = {'worksheet':'storage-week','cell':'B32'}
+
+
+#---------------------------------------------------------------------------------
+## Weekly Closing Values
+#---------------------------------------------------------------------------------
+# Categories
+cells['wk_cls_eq'] = {'worksheet':'storage-week','cell':'C3'}
+cells['wk_cls_FI'] = {'worksheet':'storage-week','cell':'C4'}
+cells['wk_cls_csh'] = {'worksheet':'storage-week','cell':'C5'}
+
+# Accounts
+cells['wk_cls_wfa'] = {'worksheet':'storage-week','cell':'C10'}
+cells['wk_cls_acn'] = {'worksheet':'storage-week','cell':'C11'}
+cells['wk_cls_rhd'] = {'worksheet':'storage-week','cell':'C12'}
+
+# Stocks
+cells['wk_cls_LGMAX'] = {'worksheet':'storage-week','cell':'C21'}
+cells['wk_cls_LGRRX'] = {'worksheet':'storage-week','cell':'C22'}
+cells['wk_cls_VOO'] = {'worksheet':'storage-week','cell':'C23'}
+cells['wk_cls_VB'] = {'worksheet':'storage-week','cell':'C24'}
+cells['wk_cls_MSTX'] = {'worksheet':'storage-week','cell':'C25'}
+cells['wk_cls_DDF'] = {'worksheet':'storage-week','cell':'C26'}
+cells['wk_cls_VWO'] = {'worksheet':'storage-week','cell':'C27'}
+cells['wk_cls_VNQ'] = {'worksheet':'storage-week','cell':'C28'}
+cells['wk_cls_IRDM'] = {'worksheet':'storage-week','cell':'C29'}
+cells['wk_cls_SHY'] = {'worksheet':'storage-week','cell':'C30'}
+cells['wk_cls_LQD'] = {'worksheet':'storage-week','cell':'C31'}
+cells['wk_cls_CHKR'] = {'worksheet':'storage-week','cell':'C32'}
+
+
+
 # Close shelf
 cells.close()
