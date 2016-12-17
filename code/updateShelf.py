@@ -63,12 +63,13 @@ cells['CHKR_shares'] = {'worksheet':'Robinhood','cell':'C5'}
 #---------------------------------------------------------------------------------
 
 ## Values
-# Categories
+# Morning Categories
 cells['morning_total_val'] = {'worksheet':'storage-morning','cell':'B2'}
 cells['morning_equity_val'] = {'worksheet':'storage-morning','cell':'B6'}
 cells['morning_fixed_val'] = {'worksheet':'storage-morning','cell':'B7'}
 cells['morning_cash_val'] = {'worksheet':'storage-morning','cell':'B8'}
 
+# Morning Value
 cells['morning_wfa_val'] = {'worksheet':'storage-morning','cell':'B3'}
 cells['morning_acorns_val'] = {'worksheet':'storage-morning','cell':'B4'}
 cells['morning_robinhood_val'] = {'worksheet':'storage-morning','cell':'B5'}
