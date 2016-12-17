@@ -57,11 +57,18 @@ cells['LQD_shares'] = {'worksheet':'Acorns','cell':'C3'}
 cells['DDF_shares'] = {'worksheet':'Robinhood','cell':'C3'}
 cells['CHKR_shares'] = {'worksheet':'Robinhood','cell':'C5'}
 
-# Morning Values
+
+#---------------------------------------------------------------------------------
+## Morning Info
+#---------------------------------------------------------------------------------
+
+## Values
+# Categories
 cells['morning_total_val'] = {'worksheet':'storage-morning','cell':'B2'}
 cells['morning_equity_val'] = {'worksheet':'storage-morning','cell':'B6'}
 cells['morning_fixed_val'] = {'worksheet':'storage-morning','cell':'B7'}
 cells['morning_cash_val'] = {'worksheet':'storage-morning','cell':'B8'}
+
 cells['morning_wfa_val'] = {'worksheet':'storage-morning','cell':'B3'}
 cells['morning_acorns_val'] = {'worksheet':'storage-morning','cell':'B4'}
 cells['morning_robinhood_val'] = {'worksheet':'storage-morning','cell':'B5'}
@@ -100,6 +107,7 @@ cells['morning_CHKR_shares'] = {'worksheet':'storage-morning','cell':'C21'}
 cells['wk_opn_eq'] = {'worksheet':'storage-week','cell':'B3'}
 cells['wk_opn_FI'] = {'worksheet':'storage-week','cell':'B4'}
 cells['wk_opn_csh'] = {'worksheet':'storage-week','cell':'B5'}
+cells['wk_opn_ttl'] = {'worksheet':'storage-week','cell':'B6'}
 
 # Accounts
 cells['wk_opn_wfa'] = {'worksheet':'storage-week','cell':'B10'}
@@ -128,6 +136,7 @@ cells['wk_opn_CHKR'] = {'worksheet':'storage-week','cell':'B32'}
 cells['wk_cls_eq'] = {'worksheet':'storage-week','cell':'C3'}
 cells['wk_cls_FI'] = {'worksheet':'storage-week','cell':'C4'}
 cells['wk_cls_csh'] = {'worksheet':'storage-week','cell':'C5'}
+cells['wk_cls_ttl'] = {'worksheet':'storage-week','cell':'C6'}
 
 # Accounts
 cells['wk_cls_wfa'] = {'worksheet':'storage-week','cell':'C10'}
