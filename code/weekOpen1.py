@@ -5,7 +5,7 @@ import cell
 # List of cells to update
 # Create a list of values to update.
 vals = ['total_val','equity_val','fixed_val','cash_val','wfa_val','acorns_val','robinhood_val','LGMAX_val','LGRRX_val',
-        'VOO_val','VB_val','VWO_val','VNQ_val','IRDM_val','MSTX_val','SHY_val','LQD_val','DDF_val','CHKR_val']
+        'VOO_val','VB_val','VWO_val','VNQ_val','IRDM_val','MSTX_val','SHY_val','LQD_val','DDF_val','CHKR_val','SO_val']
 
 # Open the shelf
 cells = shelve.open('cell_store')

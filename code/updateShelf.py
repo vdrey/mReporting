@@ -22,7 +22,7 @@ cells['cash_val'] = {'worksheet':'All','cell':'E32'}
 # Account Values
 cells['wfa_val'] = {'worksheet':'WFA','cell':'E8'}
 cells['acorns_val'] = {'worksheet':'Acorns','cell':'E9'}
-cells['robinhood_val'] = {'worksheet':'Robinhood','cell':'E11'}
+cells['robinhood_val'] = {'worksheet':'Robinhood','cell':'E13'}
 
 # Category Percent
 cells['equity_percent'] = {'worksheet':'All','cell':'E4'}
@@ -42,6 +42,7 @@ cells['SHY_val'] = {'worksheet':'Acorns','cell':'E2'}
 cells['LQD_val'] = {'worksheet':'Acorns','cell':'E3'}
 cells['DDF_val'] = {'worksheet':'Robinhood','cell':'E3'}
 cells['CHKR_val'] = {'worksheet':'Robinhood','cell':'E5'}
+cells['SO_val'] = {'worksheet':'Robinhood','cell':'E6'}
 
 # Number of shares
 cells['LGMAX_shares'] = {'worksheet':'WFA','cell':'C3'}
@@ -56,6 +57,7 @@ cells['SHY_shares'] = {'worksheet':'Acorns','cell':'C2'}
 cells['LQD_shares'] = {'worksheet':'Acorns','cell':'C3'}
 cells['DDF_shares'] = {'worksheet':'Robinhood','cell':'C3'}
 cells['CHKR_shares'] = {'worksheet':'Robinhood','cell':'C5'}
+cells['SO_shares'] = {'worksheet':'Robinhood','cell':'C6'}
 
 
 #---------------------------------------------------------------------------------
@@ -87,6 +89,7 @@ cells['morning_SHY_val'] = {'worksheet':'storage-morning','cell':'B18'}
 cells['morning_LQD_val'] = {'worksheet':'storage-morning','cell':'B19'}
 cells['morning_DDF_val'] = {'worksheet':'storage-morning','cell':'B20'}
 cells['morning_CHKR_val'] = {'worksheet':'storage-morning','cell':'B21'}
+cells['morning_SO_val'] = {'worksheet':'storage-morning','cell':'B22'}
 
 # Morning Shares
 cells['morning_LGMAX_shares'] = {'worksheet':'storage-morning','cell':'C10'}
@@ -101,6 +104,7 @@ cells['morning_SHY_shares'] = {'worksheet':'storage-morning','cell':'C18'}
 cells['morning_LQD_shares'] = {'worksheet':'storage-morning','cell':'C19'}
 cells['morning_DDF_shares'] = {'worksheet':'storage-morning','cell':'C20'}
 cells['morning_CHKR_shares'] = {'worksheet':'storage-morning','cell':'C21'}
+cells['morning_SO_shares'] = {'worksheet':'storage-morning','cell':'C22'}
 
 
 #---------------------------------------------------------------------------------
@@ -130,6 +134,7 @@ cells['wk_opn_IRDM_val'] = {'worksheet':'storage-week','cell':'B29'}
 cells['wk_opn_SHY_val'] = {'worksheet':'storage-week','cell':'B30'}
 cells['wk_opn_LQD_val'] = {'worksheet':'storage-week','cell':'B31'}
 cells['wk_opn_CHKR_val'] = {'worksheet':'storage-week','cell':'B32'}
+cells['wk_opn_SO_val'] = {'worksheet':'storage-week','cell':'B33'}
 
 
 #---------------------------------------------------------------------------------
@@ -159,6 +164,7 @@ cells['wk_cls_IRDM_val'] = {'worksheet':'storage-week','cell':'C29'}
 cells['wk_cls_SHY_val'] = {'worksheet':'storage-week','cell':'C30'}
 cells['wk_cls_LQD_val'] = {'worksheet':'storage-week','cell':'C31'}
 cells['wk_cls_CHKR_val'] = {'worksheet':'storage-week','cell':'C32'}
+cells['wk_cls_SO_val'] = {'worksheet':'storage-week','cell':'C33'}
 
 
 # Close shelf
